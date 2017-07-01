@@ -1,1 +1,1 @@
-# Backbone.js & RequireJS TodoMVC Example
+RequireJS
