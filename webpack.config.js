@@ -7,10 +7,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    modulesDirectories: ['.', 'node_modules'],
-    alias: {
-      backboneLocalstorage: 'backbone.localstorage'
-    }
+    modulesDirectories: ['node_modules'],
   }
 }
 
