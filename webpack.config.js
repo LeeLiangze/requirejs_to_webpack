@@ -6,5 +6,10 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
+  module: {
+    loaders: [
+      {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/},
+    ],
+  },
 }
 
