@@ -6,8 +6,5 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
-  resolve: {
-    modulesDirectories: ['node_modules'],
-  }
 }
 
