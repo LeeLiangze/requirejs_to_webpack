@@ -19,6 +19,7 @@ define([
       // Trigger a collection filter event, causing hiding/unhiding
       // of the Todo view items
       Todos.trigger('filter');
+      // (param || 'foo').toLowerCase()
     }
   });
 
