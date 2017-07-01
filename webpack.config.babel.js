@@ -6,11 +6,14 @@ export default {
   output: {
     filename: 'bundle.js'
   },
+  resolve: {
+    modulesDirectories: ['node_modules'],
+  },
   module: {
     loaders: [
       {test: /\.html$/, loaders: ['raw'], exclude: /node_modules/},
       {test: /\.css$/, loaders: ['style', 'css']},
-      {test: /\.js$/, loaders: ['babel'], exclude: /node_modules/},
+      {test: /\.js$/, loaders: ['babel', 'eslint'], exclude: /node_modules/},
     ],
   },
 }
